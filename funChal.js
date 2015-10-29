@@ -1,3 +1,6 @@
+
+
+// 1
 var maxOrMin = function(num1, num2, max) {
 	if (num1 === num2) {
 		return "Equal";
@@ -18,6 +21,7 @@ var maxOrMin = function(num1, num2, max) {
 };
 
 
+// 2
 function sillySum(arr) {
     var multArr = [];
 	for(var i = 0; i < arr.length; i++) {
@@ -31,7 +35,7 @@ function sillySum(arr) {
 }
 
 
-
+// 3
 function numSquare(max) {
 	var arr = [];
 	for(var i = 0; i <= max; i++) {
@@ -45,7 +49,7 @@ function numSquare(max) {
 }
 
 
-
+// 4
 function isPrime(num) {
 	if(num < 2) {
 		return false;
@@ -58,6 +62,8 @@ function isPrime(num) {
 	return true;
 }
 
+
+// 5
 function primes(max) {
 	var array = [];
 	for(var i = 2; i <= max; i++) {
